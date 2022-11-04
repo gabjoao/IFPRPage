@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 32px;
+  }
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+
+    
+}
+
+.cabecalhoImagem{
+    height: 82px;
+}
+
+.cabecalhoTexto{
+    font-size: 12px;
+    
+   
+}
+
+.Links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+.primeira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.primeiraImagem{
+    margin-top: 120px;
+    height: 350px;
+}
+
+.primeiraTexto{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.primeiraTexto2{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+}
+
+.primeiraTexto3{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 65px;
+
+}
+
+/*Segunda parte*/
+
+
+.segunda{
+    background-color: #E0ECE2;
+    font-family: 'Barlow', sans-serif;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.segundaTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.segundaTitulo{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 98px;
+
+}
+
+.segundaConteudo{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    width: 300px;
+
+}
+
+.segundaImagem{
+    width: 400px;
+
+}
+
+/*Terceira parte*/
+
+.terceira{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Barlow', sans-serif;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.terceiraTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.terceiraTitulo{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 75px;
+
+}
+
+.terceiraConteudo{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.mapa{
+    height: 500px;
+    width: 500px;
+
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="logo.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>IFPR</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>
+
+    </head>
+
+
+    <body>
+        <header class = "cabecalho">
+            <a href="https://reitoria.ifpr.edu.br"><img class = "cabecalhoImagem" src="logo.png" alt="Logo do IFPR"></a>
+            <div class = "cabecalhoTexto">
+                <h1 class = "cabecalhoTitulo">IFPR</h1>
+                <h2 class = "cabecalhoSub">Instituto Federal do Paraná – IFPR – Educação pública, gratuita e de qualidade</h2>
+                <h3>Campus União da Vitória</h3>
+            
+            </div>
+
+            <ul class = "Links">
+                <li> <a href="#"> Inicio </a></li>
+                <li> <a href="#segunda"> Nossos Cursos </a> </li>
+                <li> <a href="#terceira"> Conheça os Campi </a> </li>
+                <li> <a href="#"> Entre em contato </a> </li>
+            </ul>
+
+
+        </header>
+
+        <main class = "principal">
+
+            <section class = "primeira">
+                <img class = "primeiraImagem" src="banner.png" alt="banner">
+                <div class = "primeiraTexto">
+                    <p>Venha fazer parte do IFPR!</p>
+                </div>
+
+                <div class="primeiraTexto2">
+                    <h4>Acompanhe o processo seletivo nas nossas<a href="https://www.instagram.com/ifpr.uniaodavitoria/"> redes sociais!</a>
+                     </h4>
+                    <h4>Cursos Técnicos Integrados ao Ensino Médio</h4>
+                </div>
+                <h2 class = "primeiraTexto3">O SEU LUGAR É AQUI</h2>
+
+            </section>
+
+            <section class = "segunda" id = "segunda">
+                <div class = "segundaTexto">
+                    <h1 class = "segundaTitulo">Nossos Cursos</h1>
+                    <p class = "segundaConteudo">Aqui no IFPR Campus União da Vitória oferecemos os Cursos Técnicos
+                    integrados ao Ensino Médio, o <b> Técnico em Informática </b> e <b>Técnico em Meio Ambiente </b> , além de dois cursos superiores, o <b> Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) </b> e o curso de <b> Bacharelado em Agronomia</b>.
+                    </p>
+
+                </div>
+                <img class = "segundaImagem" src="ifpr.jpg" alt="ifpr">
+                
+            </section>
+
+            <section class = "terceira" id="terceira" >
+                <div class = terceiraTexto>
+                    <h1 class = "terceiraTitulo">Conheça os Campi</h1>
+                    <p class = "terceiraConteudo">O IFPR possui atualmente 27 campi, com a reitoria na cidade de Curitiba</p>
+                </div>
+                
+                <div class ="mapa" id="mapa-campi"></div>
+                <script src="script.js"></script>
+
+            </section>
+            
+
+        </main>
+
+    
+    </body>
+</html>
+

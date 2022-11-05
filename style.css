@@ -154,5 +154,103 @@ html {
 .mapa{
     height: 500px;
     width: 500px;
+    margin-bottom: 75px;
 
 }
+
+/*Quarta parte*/
+
+.quarta {
+    background-color: #E0ECE2;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+
+}
+
+.quartaTitulo {
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 75px;
+}
+
+.quartaConteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 20px;
+
+}
+
+.quartaSociais {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+
+}
+
+.quartaTexto2 {
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 75px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.igIcon, .fbIcon {
+    width: 32px;
+
+}
+
+/*Rodapé*/
+
+.rodape {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(46, 67, 73);
+
+}
+
+.rodapeTexto{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #E0ECE2;
+
+}
+
+.rodapeIcones{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.ig, .gh, .tt{
+    width: 24px;
+}
+
+/*Efeito de Reveal*/
+
+.primeiraImagem, .primeiraTexto3, .segundaConteudo, .segundaImagem, .terceiraConteudo, .mapa, .quartaConteudo{
+    visibility: hidden;
+
+}
+

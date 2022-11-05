@@ -5,15 +5,18 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="logo.png">
+        <link rel="icon" type="image/png" href="icon.png">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>IFPR</title>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
-        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
-        crossorigin=""/>
-        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
-        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
-        crossorigin=""></script>
+        <link 
+            rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+            integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+            crossorigin=""/>
+        <script 
+            src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+            integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+            crossorigin=""></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
 
     </head>
 
@@ -32,7 +35,7 @@
                 <li> <a href="#"> Inicio </a></li>
                 <li> <a href="#segunda"> Nossos Cursos </a> </li>
                 <li> <a href="#terceira"> Conheça os Campi </a> </li>
-                <li> <a href="#"> Entre em contato </a> </li>
+                <li> <a href="#quarta"> Entre em contato </a> </li>
             </ul>
 
 
@@ -70,18 +73,53 @@
             <section class = "terceira" id="terceira" >
                 <div class = terceiraTexto>
                     <h1 class = "terceiraTitulo">Conheça os Campi</h1>
-                    <p class = "terceiraConteudo">O IFPR possui atualmente 27 campi, com a reitoria na cidade de Curitiba</p>
+                    <p class = "terceiraConteudo">O IFPR possui atualmente 27 campi, com a reitoria na cidade de<a href="https://curitiba.ifpr.edu.br"> Curitiba</a></p>
                 </div>
                 
                 <div class ="mapa" id="mapa-campi"></div>
                 <script src="script.js"></script>
 
             </section>
+
+            <section class = "quarta" id = "quarta">
+                <h1 class = "quartaTitulo">Entre em contato</h1>
+
+                <div class ="quartaConteudo">
+
+                    <div class = "quartaSociais">
+                        <h3 class = "quartaTituloSociais">Redes sociais: </h3>
+
+                        <a href="https://www.instagram.com/ifpr.uniaodavitoria/"> <img class ="igIcon" src="ig.png" alt="Instagram"> </a>
+                        <a href="https://pt-br.facebook.com/uniaodavitoria.ifpr/""> <img class = "fbIcon" src="fb.png" alt="Facebook">  </a>
+
+                    </div>
+
+                    <div class = "quartaTexto2">
+                        <h4> <a href="https://uniao.ifpr.edu.br"> Site oficial </a> </h4>
+                        <h4>Email geral do campus: campus.uniaodavitoria@ifpr.edu.br</h4>
+                        <h4>Telefone: (42) 2102-1443</h4>
+                        <p>O Campus União da Vitória está localizado na Av. Paula Freitas, 2800, Bairro São Braz.<p>
+                    </div>
+                </div>
+
+            </section>
+
+            <footer class = "rodape">
+                <div class = "rodapeIcones">
+                    <a href="https://www.instagram.com/gabjoaoz/"> <img class ="ig" src="ig.png" alt="Instagram"> </a>
+                    <a href="https://github.com/gabjoao/""> <img class = "gh" src="gh.png" alt="Github">  </a>
+                    <a href="https://twitter.com/gabjoao25/""> <img class = "tt" src="tt.png" alt="Github">  </a>
+
+                </div>
+                <h3 class = "rodapeTexto">Esse projeto foi feito com o intuíto de estudo.
+                   Por João Gabriel, 2022
+                </h3>
+            </footer>
             
 
         </main>
 
-    
+    <script src="reveal.js"></script>
     </body>
 </html>
 

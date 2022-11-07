@@ -153,8 +153,10 @@ html {
 
 .mapa{
     height: 500px;
-    width: 500px;
+    width: 800px;
     margin-bottom: 75px;
+    border-style: solid;
+    border-width: 1px;
 
 }
 
